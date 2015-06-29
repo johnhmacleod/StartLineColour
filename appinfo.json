@@ -1,0 +1,111 @@
+{
+    "appKeys": {
+        "KEY_CONFIG_BOLD": 131,
+        "KEY_CONFIG_COLOURAWA": 134,
+        "KEY_CONFIG_RACEBOX": 132,
+        "KEY_CONFIG_VIBEDISCONNECT": 133
+    },
+    "capabilities": [
+        "configurable"
+    ],
+    "companyName": "john.h.macleod@gmail.com",
+    "longName": "StartLine for Pebble",
+    "projectType": "native",
+    "resources": {
+        "media": [
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN77F.ttf",
+                "name": "PTB_64",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN77F.ttf",
+                "name": "PTB_47",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN77F.ttf",
+                "name": "PTB_48",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN77F.ttf",
+                "name": "PTB_59",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "file": "images/SLPT.png",
+                "name": "SLPNG",
+                "type": "png"
+            },
+            {
+                "file": "images/bwarrow_right.png",
+                "name": "BWARROW",
+                "type": "png"
+            },
+            {
+                "file": "images/SL28.png",
+                "menuIcon": true,
+                "name": "SL_28",
+                "type": "png"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_64",
+                "trackingAdjust": -2,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_47",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_50",
+                "trackingAdjust": -3,
+                "type": "font"
+            },
+            {
+                "characterRegex": "[-0-9.A-Z:hms ]",
+                "file": "fonts/PTN57F.ttf",
+                "name": "PTN_59",
+                "trackingAdjust": -2,
+                "type": "font"
+            },
+            {
+                "file": "images/StartLine.png",
+                "name": "MENU_IMAGE",
+                "type": "png"
+            },
+            {
+                "file": "images/padlock_closedc.png",
+                "name": "PADLOCK",
+                "type": "png"
+            }
+        ]
+    },
+    "sdkVersion": "3",
+    "shortName": "StartLine",
+    "targetPlatforms": [
+        "aplite",
+        "basalt"
+    ],
+    "uuid": "743c5eb7-77fb-4821-913a-5d855e2c3c84",
+    "versionLabel": "3.3",
+    "watchapp": {
+        "watchface": false
+    }
+}
